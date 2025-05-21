@@ -1,4 +1,3 @@
-![Screenshot 2025-03-25 202102](https://github.com/user-attachments/assets/e1807701-693c-4137-be81-ab146a1c1ce6)
 # HackMate
 
 ## 🚀 Project Overview
