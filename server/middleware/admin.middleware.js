@@ -1,8 +1,9 @@
 import ApiError from "../utils/ApiError.js";
 
-/**
+/*
  * Middleware to check if the authenticated user is an Admin
- */
+*/
+
 export const isAdmin = (req, res, next) => {
   try {
     // User is already attached to req from isAuthenticated middleware
@@ -25,9 +26,9 @@ export const isAdmin = (req, res, next) => {
   }
 };
 
-/**
+/*
  * Middleware to check if the authenticated user is a Teacher
- */
+*/
 export const isTeacher = (req, res, next) => {
   try {
     const user = req.user;
