@@ -1,4 +1,4 @@
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 
 const FrontPage = () => {
     const navigate = useNavigate();
